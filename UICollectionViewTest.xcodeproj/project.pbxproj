@@ -16,6 +16,7 @@
 		3A38166C238416720076FD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A38166B238416720076FD67 /* main.m */; };
 		3A381676238416720076FD67 /* UICollectionViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A381675238416720076FD67 /* UICollectionViewTestTests.m */; };
 		3A381681238416720076FD67 /* UICollectionViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A381680238416720076FD67 /* UICollectionViewTestUITests.m */; };
+		3A381690238417EC0076FD67 /* MoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A38168F238417EC0076FD67 /* MoveCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3A38167C238416720076FD67 /* UICollectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A381680238416720076FD67 /* UICollectionViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewTestUITests.m; sourceTree = "<group>"; };
 		3A381682238416720076FD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A38168E238417EC0076FD67 /* MoveCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveCollectionViewCell.h; sourceTree = "<group>"; };
+		3A38168F238417EC0076FD67 /* MoveCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				3A381667238416720076FD67 /* LaunchScreen.storyboard */,
 				3A38166A238416720076FD67 /* Info.plist */,
 				3A38166B238416720076FD67 /* main.m */,
+				3A38168E238417EC0076FD67 /* MoveCollectionViewCell.h */,
+				3A38168F238417EC0076FD67 /* MoveCollectionViewCell.m */,
 			);
 			path = UICollectionViewTest;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A381661238416700076FD67 /* ViewController.m in Sources */,
+				3A381690238417EC0076FD67 /* MoveCollectionViewCell.m in Sources */,
 				3A38165B238416700076FD67 /* AppDelegate.m in Sources */,
 				3A38166C238416720076FD67 /* main.m in Sources */,
 				3A38165E238416700076FD67 /* SceneDelegate.m in Sources */,
